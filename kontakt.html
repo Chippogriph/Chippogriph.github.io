@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min hemsida</title>
+    <link href="css/styles.css" rel="stylesheet">
+
+</head>
+
+</div>
+
+<body>
+    <wrapper>
+        <header>
+        <h1></h1> 
+        </header>
+        <div class="topnav">
+            <a href="index.html">Startsida</a>
+            <a href="hobbies.html">Mina hobbies</a>
+            <a href="cv.html">CV</a>
+            <a href="om mig.html">Om mig</a>
+            <a class="active" href="kontakt.html">Kontakt</a>
+        </div>
+        
+        <div class="wrapper">
+            <section>
+                <h1>Kontakta mig</h1>
+                <p>Fyll i formuläret för att kontakta mig och om du vill ha någon form av återkoppling.</p>
+
+                <fieldset>
+                    <legend>Dina kontaktuppgifter</legend>
+                    <label for="name">Your name </label>
+                    <input type="text" id="name" name="name">
+                    <label for="phone">Phone number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="07X-XXX XX XX">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Meddelande</legend>
+                    <textarea id="comments" name="comments" placeholder="Skriv ditt meddelande här..." maxlength="1000" required></textarea>
+
+                    <p>Vill du ha en återkoppling?</p>
+                    <label>
+                        <input type="radio" name="answer" value="yes">Ja
+                    </label>
+                    <label>
+                        <input type="radio" name="answer" value="no">Nej
+                    </label>
+
+                    <label for="kontaktform">Hur vill du bli kontaktad?</label>
+                        <select id="kontaktform" name="kontaktform">
+                            <option selected>Välj en...</option>
+                            <option value="phone">Telefon</option>
+                            <option value="mail">Mail</option>
+                        </select>
+                </fieldset>
+    
+                <button type="submit">Skicka</button>
+    
+                </form>				
+            </section>
+            <aside>
+                <h3>Our Location</h3>
+                <address>
+                    Kvartsstigen 12A &middot;
+                    791 56 &middot;
+                    Falun
+                </address>
+            </aside>
+        </div>
+    </wrapper>
+</body>
+</html>
