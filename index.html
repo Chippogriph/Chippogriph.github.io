@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <title>Min sida 2.0</title>
+    <style>
+       
+        h1 {
+            text-transform: uppercase;
+        }
+
+        /* selektor - element/type selektor */
+        h1, h2 {
+            text-align: center;
+        }
+        img, audio, video {
+            display: block;
+            width: 100%;
+        }
+        table {
+            width: 100%
+        }
+
+    th {
+        text-align: left;
+    }
+    label, input, textarea {
+        display: block;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    textarea {
+        resize: none;
+    }
+    </style>
+  </head>
+  <body>
+    <div>
+        <h1>Välkommen till min sida!</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, incidunt. Impedit exercitationem voluptatem praesentium aspernatur expedita doloribus vitae quos eveniet magnam, quae quasi illo ullam repellat delectus quas consequuntur fuga? Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, unde vel ipsam maxime vitae, nisi nesciunt fugiat repellendus fuga repudiandae praesentium illum labore soluta facere atque corrupti, aliquam quas voluptatum.
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti in aut ipsam reiciendis quis architecto veritatis consectetur animi magnam recusandae unde optio sequi, facere tenetur ut explicabo quos quam nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos officiis sint repellendus eum veniam dolorum ea ducimus modi aliquam dolorem! Assumenda placeat nemo impedit commodi? Inventore modi reiciendis consectetur hic.
+        </p>
+    
+        <img src="./images/placehold.png" alt="">
+        <audio src="https://www.televisiontunes.com/uploads/audio/Benny%20Hill%20Show.mp3" controls></audio>
+    
+        <h2>Mina intressen</h2>
+    
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident laborum voluptate eveniet labore ab id dolorem accusantium vitae tempore natus molestiae possimus quia laboriosam minima iste, blanditiis adipisci omnis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique reiciendis perspiciatis vel. Placeat ad aut eligendi odio dolore minima dolorem, veritatis illo exercitationem distinctio dolorum, recusandae, vero voluptatum tenetur repudiandae.</p>
+
+        <ul>
+            <li>Intresse 1</li>
+            <li>Intresse 2</li>
+            <li>Intresse 3</li>
+        </ul>
+
+        <video src="https://dl6.webmfiles.org/big-buck-bunny_trailer.webm" controls></video>
+
+        <h2>Favorit TV-serier</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Serier</th>
+                    <th>IMDB Rating</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Last of us</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Breaking bad</td>
+                    <td>9.5</td>
+                </tr>
+                <tr>
+                    <td>Twisted metal</td>
+                    <td>9.8</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Kontakta mig</h2>
+        <form action="https:/httpbin.org/get" method="get">
+        <label>Namn</label>
+        <input type="text" name="name" placeholder="Ange namn" required maxlength="25">
+
+        <label>Meddelande</label>
+        <textarea name="message" placeholder="Ange meddelande" required></textarea>
+
+        <button>Skicka</button>
+        </form>
+
+    </div>
+  </body>
+</html>
